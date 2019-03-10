@@ -1,5 +1,6 @@
-import program from 'commander';
+#!/usr/bin/env node
 
+import program from 'commander';
 import { CreateCommand } from './commands/create';
 
 program
