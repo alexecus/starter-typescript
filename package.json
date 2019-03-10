@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "author": "alexecus",
   "license": "MIT",
+  "repository": "https://github.com/alexecus/starter-typescript",
   "scripts": {
     "start": "node lib/index.js",
     "build": "tsc",
