@@ -5,7 +5,7 @@ import { CreateCommand } from './commands/create';
 
 program
     .name('typescipt-starter')
-    .version('1.0.4');
+    .version('1.0.6');
 
 program
     .command('new <name>')

@@ -1,12 +1,12 @@
 {
   "name": "starter-typescript",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A website boilerplate to create static website using typescript",
   "bin": "lib/index.js",
   "author": "alexecus",
   "license": "MIT",
   "repository": "https://github.com/alexecus/starter-typescript",
-  "files": ["lib/**/*"],
+  "files": ["lib/**/*", "source/**/*"],
   "scripts": {
     "start": "node lib/index.js",
     "build": "tsc",
