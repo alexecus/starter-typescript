@@ -1,0 +1,26 @@
+{
+  "name": "starter-typescript",
+  "version": "1.0.0",
+  "description": "A website boilerplate to create static website using typescript",
+  "main": "index.js",
+  "author": "anonymous",
+  "license": "MIT",
+  "scripts": {
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dist": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "serve": "serve -l tcp://ts.env:8080"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^2.0.0",
+    "laravel-mix": "^4.0.14",
+    "webpack-shell-plugin": "^0.5.0"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.17.2",
+    "sass-loader": "7.*",
+    "serve": "^10.1.2",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333"
+  }
+}
