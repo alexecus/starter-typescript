@@ -29,10 +29,9 @@ export class CreateCommand {
         exec.on('exit', function (code) {
             if (code === 0) {
                 console.clear();
-                console.log("\n");
                 console.log(`Congratulations, your project has been created at folder ${chalk.cyanBright.bold(name)}`);
                 console.log("\n");
-                console.log(`You can run ${chalk.cyanBright.bold('yarn watch')} on the newly created project to actively watch and serve it on ${chalk.cyanBright.bold('localhost:8080')}`);
+                console.log(`You can run ${chalk.cyanBright.bold('yarn watch')} on the newly created project to actively watch and serve it on ${chalk.cyanBright.bold('localhost:8083')}`);
             } else {
                 console.log(`Error initializing project`);
                 console.log(code);
