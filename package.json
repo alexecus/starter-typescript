@@ -1,7 +1,7 @@
 {
   "name": "starter-typescript",
-  "version": "1.0.7",
-  "description": "A website boilerplate to create static website using typescript",
+  "version": "1.0.8",
+  "description": "A boilerplate to create static website using typescript",
   "bin": "lib/index.js",
   "author": "alexecus",
   "license": "MIT",
